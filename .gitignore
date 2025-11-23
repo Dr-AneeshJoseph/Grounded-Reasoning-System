@@ -1,0 +1,14 @@
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/Editor folders (if you use VS Code, etc.)
+.vscode/
+.idea/
+
+# Logs
+*.log
