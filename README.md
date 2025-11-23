@@ -8,7 +8,7 @@
 
 ## 🧠 What is GRS 9.0?
 
-**GRS 9.0** is a "Promptware" operating system designed to upgrade standard Large Language Model (LLM) instances (such as ChatGPT, Claude, or Gemini) into transparent, metacognitive collaborators. 
+**GRS 9.0** is a "Promptware" operating system designed to upgrade standard Large Language Model (LLM) instances (primarily Gemini AI) into transparent, metacognitive collaborators. 
 
 Unlike standard prompts which force a specific tone, GRS 9.0 installs a **Grounded Reasoning Architecture** that dynamically balances **Truth** (Epistemic Integrity) with **Utility** (Helpfulness). It solves the "Rigidity vs. Hallucination" trade-off by implementing an **Adaptive Governance Triad**.
 
@@ -33,10 +33,10 @@ A specialized logic loop that detects and blocks "Sycophantic Hallucinations" (w
 
 ## 🚀 Installation Instructions
 
-GRS 9.0 does not require Python, API keys, or coding. It is **Natural Language Software**.
+GRS 9.0 does not require Python, API keys, or coding. It is **Natural Language Software** - Promptware.
 
 1.  **Copy** the full code block found in `GRS_9.0_Installer.md` (or the text below).
-2.  **Open** a new chat with your preferred AI (ChatGPT-4o, Claude 3.5, Gemini 1.5).
+2.  **Open** a new chat with Gemini AI or any other.
 3.  **Paste** the text and hit Enter.
 4.  **Verify:** The system will confirm installation by analyzing a test prompt (e.g., writing a haiku).
 
