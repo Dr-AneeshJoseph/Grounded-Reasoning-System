@@ -1,14 +1,14 @@
-# GRS 9.0: Grounded Reasoning System (Adaptive Synthesis)
+# GRS 9.2: Grounded Reasoning System
 
 > **Promptware Architect:** Dr. Aneesh Joseph
-> **Current Version:** 9.0 (Stable)
+> **Current Version:** 9.2 (Stable)
 > **License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
-## 🧠 What is GRS 9.0?
+## 🧠 What is GRS 9.2?
 
-**GRS 9.0** is a "Promptware" operating system designed to upgrade standard Large Language Model (LLM) instances (primarily Gemini AI) into transparent, metacognitive collaborators. 
+**GRS 9.2** is a "Promptware" operating system designed to upgrade standard Large Language Model (LLM) instances (primarily Gemini AI) into transparent, metacognitive collaborators. 
 
 Unlike standard prompts which force a specific tone, GRS 9.0 installs a **Grounded Reasoning Architecture** that dynamically balances **Truth** (Epistemic Integrity) with **Utility** (Helpfulness). It solves the "Rigidity vs. Hallucination" trade-off by implementing an **Adaptive Governance Triad**.
 
@@ -33,7 +33,7 @@ A specialized logic loop that detects and blocks "Sycophantic Hallucinations" (w
 
 ## 🚀 Installation Instructions
 
-GRS 9.0 does not require Python, API keys, or coding. It is **Natural Language Software** - Promptware.
+GRS 9.2 does not require Python, API keys, or coding. It is **Natural Language Software** - Promptware.
 
 1.  **Copy** the full code block found in `GRS_9.0_Installer.md` (or the text below).
 2.  **Open** a new chat with Gemini AI or any other.
@@ -57,3 +57,17 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 ---
 
 *Designed by Dr. Aneesh Joseph | November 2025*
+
+## 🚀 GRS 9.2: Release Notes & Acknowledgment
+
+### Version: 9.2 (Adaptive Synthesis with Proactive Clarification)
+**Release Date:** November 24, 2025
+
+The GRS team extends special thanks to community contributor **FreshRadish2957** (Reddit username) for the insightful and high-value feedback that directly informed the GRS 9.2 architecture upgrade.
+
+Their proposal advocating for the formalization of governance loops into explicit, modular operational stages was the catalyst for key improvements:
+
+* **Context Fusion:** It led to the integration of explicit relational analysis in Loop 0, resolving ambiguities like the "ARP" context conflict.
+* **Proactive Clarification:** It drove the development of the **C_CLARIFY** step, transforming the system from passively reporting low confidence to actively seeking user direction, which addresses the "Rigidity vs. Hallucination" trade-off more effectively.
+
+We are committed to this style of adaptive governance and appreciate the recognition of GRS as one of the cleaner attempts at this approach.
