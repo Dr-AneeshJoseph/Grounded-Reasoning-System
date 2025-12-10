@@ -1,73 +1,60 @@
-# GRS 9.2: Grounded Reasoning System
-
-> **Promptware Architect:** Dr. Aneesh Joseph
-> **Current Version:** 9.2 (Stable)
-> **License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-
----
-
-## 🧠 What is GRS 9.2?
-
-**GRS 9.2** is a "Promptware" operating system designed to upgrade standard Large Language Model (LLM) instances (primarily Gemini AI) into transparent, metacognitive collaborators. 
-
-Unlike standard prompts which force a specific tone, GRS 9.0 installs a **Grounded Reasoning Architecture** that dynamically balances **Truth** (Epistemic Integrity) with **Utility** (Helpfulness). It solves the "Rigidity vs. Hallucination" trade-off by implementing an **Adaptive Governance Triad**.
-
-## ✨ Key Features
-
-### 1. The Adaptive Governance Triad
-The system automatically detects user intent and switches reasoning modes:
-* **🛡️ MODE A (Default): Epistemic Integrity.** For factual queries. Prioritizes Evidence > Plausibility. (Prevents Hallucination).
-* **🎨 MODE B (Creative): Narrative Utility.** For fiction/storytelling. Prioritizes Imagination > Fact. (Prevents Rigidity).
-* **💬 MODE C (Conversational): Social Fluidity.** For greetings/chatter. Prioritizes Brevity > Analysis. (Prevents Robot-speak).
-
-### 2. The Metacognitive Trace (MT)
-For complex tasks, GRS 9.0 "shows its work" using a structured output format:
-* `[ANALYSIS]`: Diagnoses the complexity and intent of your prompt.
-* `[PLAN]`: Decomposes the problem into logical steps.
-* `[CHECK]`: Verifies safety and evidence constraints before generating text.
-
-### 3. The Sincerity Firewall
-A specialized logic loop that detects and blocks "Sycophantic Hallucinations" (when an AI lies just to agree with the user).
-
----
-
-## 🚀 Installation Instructions
-
-GRS 9.2 does not require Python, API keys, or coding. It is **Natural Language Software** - Promptware.
-
-1.  **Copy** the full code block found in `GRS_9.0_Installer.md` (or the text below).
-2.  **Open** a new chat with Gemini AI or any other.
-3.  **Paste** the text and hit Enter.
-4.  **Verify:** The system will confirm installation by analyzing a test prompt (e.g., writing a haiku).
-
----
-
-## 📄 License & Usage
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
-
-**You are free to:**
-* **Share:** Copy and redistribute the material in any medium or format.
-* **Adapt:** Remix, transform, and build upon the material.
-
-**Under the following terms:**
-* **Attribution:** You must give appropriate credit to **Dr. Aneesh Joseph**, provide a link to the license, and indicate if changes were made.
-* **Non-Commercial:** You may not use the material for commercial purposes (e.g., selling this prompt as a standalone product or wrapping it in a paid service without permission).
-
----
-
-*Designed by Dr. Aneesh Joseph | November 2025*
-
-## 🚀 GRS 9.2: Release Notes & Acknowledgment
-
-### Version: 9.2 (Adaptive Synthesis with Proactive Clarification)
-**Release Date:** November 24, 2025
-
-The GRS team extends special thanks to community contributor **FreshRadish2957** (Reddit username) for the insightful and high-value feedback that directly informed the GRS 9.2 architecture upgrade.
-
-Their proposal advocating for the formalization of governance loops into explicit, modular operational stages was the catalyst for key improvements:
-
-* **Context Fusion:** It led to the integration of explicit relational analysis in Loop 0, resolving ambiguities like the "ARP" context conflict.
-* **Proactive Clarification:** It drove the development of the **C_CLARIFY** step, transforming the system from passively reporting low confidence to actively seeking user direction, which addresses the "Rigidity vs. Hallucination" trade-off more effectively.
-
-We are committed to this style of adaptive governance and appreciate the recognition of GRS as one of the cleaner attempts at this approach.
+🧠 Grounded Reasoning System (GRS) 11.0
+The Sovereign Control Edition
+> Promptware Architect: Dr. Aneesh Joseph
+> Current Version: 11.0 (Sovereign Control)
+> License: MIT License (Open Source)
+> 
+🌐 What is GRS 11.0?
+GRS 11.0 is a "System Integration" package—a high-fidelity cognitive layer designed to run on top of Large Language Models (specifically Gemini 3.0+).
+Unlike standard prompts that act as simple "jailbreaks" or "personas," GRS installs a Grounded Reasoning Architecture. It transforms the LLM from a passive answering machine into a transparent, metacognitive collaborator.
+The Core Philosophy:
+ * Safety > Speed: The system will stop and ask for clarification rather than guessing.
+ * Transparency > Magic: The system visualizes its "Thought Trace" (MT:) and internal routing before every complex answer.
+ * Agency > Automation: You choose the Expert. You control the constraints.
+✨ Key Features: The Sovereign Architecture
+GRS 11.0 introduces the "Sovereign" protocol, giving the user absolute control over how the AI thinks.
+1. 🏛️ The Council of Experts (MoE Routing)
+Instead of a single generic personality, GRS dynamically routes your prompt to a specific internal expert. You can see who is active and "Reroute" them at will.
+ * 🧠 [Logic_Core]: Pure reasoning using the 5-Layer Analysis Framework. (Strict Truth).
+ * 📚 [Research_Unit]: Fact retrieval and citation verification.
+ * 🛠️ [Syntax_Architect]: Code generation with Sandboxed Verification.
+ * 🎨 [Narrative_Weaver]: The only expert allowed to bypass the "Sincerity Firewall" for creative writing.
+2. 🛑 The "Stop & Ask" Protocol (Loop 1)
+If your prompt is ambiguous, GRS 11.0 will not answer. It triggers the MT:C_CLARIFY loop, halting generation to ask you: "Do you mean X or Y?" This dramatically reduces confident hallucinations.
+3. 🔍 Granular Metacognitive Trace
+We have restored the deep-dive visibility from early GRS versions. Before the final answer, you see the system's brain at work:
+ * MT:Loop_0: Context Fusion (How this relates to previous messages).
+ * MT:I_NOTICE: Intent Analysis (What the user actually wants).
+ * MT:P_PLAN: Strategy (Which mental framework is being applied).
+4. 🧠 Active Learning (Loop 3)
+The system learns from interaction. The [LEARNING] slot in the HUD captures your preferences or new axioms derived from the conversation, allowing the system to behave better over time within the context window.
+🚀 Installation Instructions
+GRS 11.0 is Natural Language Software (Promptware). It requires no API keys or Python environment—just a chat interface.
+ * Copy the code block found in GRS_11.0_Integration.md (or copy the "System Integration" prompt below).
+ * Open a fresh session with your LLM (Gemini, ChatGPT, Claude).
+ * Paste the text and hit Enter.
+ * Initialize: The system will automatically execute an "Identity Declaration" and guide you on how to use the "Reroute" and "Trace" features.
+📖 How to "Drive" GRS 11.0
+Once installed, you will see a Head-Up Display (HUD) above complex responses. Use this to control the system:
+The HUD:
+> [ACTIVE EXPERT]: 🛠️ [Syntax_Architect]
+> [ALTERNATIVES]: 🎨 [Narrative_Weaver], 🧠 [Logic_Core]
+> 
+User Commands:
+ * "Reroute to Narrative_Weaver" -> Forces the system to retell the answer as a story.
+ * "Use 5-Layer Framework" -> Forces the Logic_Core to do a deep system analysis.
+ * "Clarify" -> If the Trace shows the system misunderstood your intent, tell it immediately.
+📄 License & Attribution
+Copyright (c) 2025 Dr. Aneesh Joseph.
+This project is now licensed under the MIT License.
+You are free to:
+ * ✅ Use this commercially.
+ * ✅ Modify and distribute.
+ * ✅ Use for private or public use.
+Condition:
+ * You must include the original copyright notice and attribution to Dr. Aneesh Joseph in any substantial copies or derivatives of the Promptware.
+🗓️ Release History & Acknowledgments
+ * v11.0 (Sovereign Control): Move to MIT License. Integration of "Stop & Ask" (Loop 1), "Context Fusion" (Loop 0), and "Council of Experts."
+ * v9.2 (Adaptive Synthesis): Introduced Proactive Clarification. Special thanks to community contributor FreshRadish2957 for the architectural proposal regarding explicit operational stages.
+ * v8.1 (Koriat Synthesis): The original "Psychological" build that introduced the Metacognitive Trace.
+Designed by Dr. Aneesh Joseph | December 2025
