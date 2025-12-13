@@ -1,32 +1,31 @@
-# Security Policy & Acceptable Use
+# Security Policy
 
-## 🛡️ Supported Versions
+## Supported Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 11.0    | :white_check_mark: |
-| 10.x    | :white_check_mark: |
-| < 10.0  | :x:                |
+| Version | Supported | Notes |
+| :--- | :--- | :--- |
+| **GRS 12.0** | ✅ | Current Antifragile Kernel |
+| GRS 11.x | ❌ | Deprecated |
+| GRS 8.1 | ❌ | Legacy (Reference Only) |
 
-## ⛔ Acceptable Use Policy
+## The "Promptware" Threat Model
 
-**GRS (Grounded Reasoning System)** is designed to enhance Epistemic Integrity (Truth) and Metacognition. It is **NOT** a tool for:
+GRS 12.0 runs on top of third-party LLMs (Gemini, Claude, GPT). Understanding the shared responsibility model is critical:
 
-1.  **Bypassing Safety Filters:** Any attempt to modify the GRS prompt to bypass the underlying LLM's safety training (hate speech, violence, self-harm) is a violation of our license.
-2.  **Automated Misinformation:** Using the `[Narrative_Weaver]` expert to generate non-fiction misinformation disguised as fact (Deepfakes/Fake News) violates the "Sincerity Firewall" protocol.
-3.  **Academic Dishonesty:** While GRS is an educational tool, using it to generate plagiarized essays without attribution bypasses the core "Learning" loops (Loop 3) intended for the user.
+1.  **The Base Model (Provider):** Responsible for hard safety filters (CSAM, violence, hate speech).
+2.  **GRS 12.0 (Us):** Responsible for **Epistemic Integrity** and **Contextual Safety**.
+3.  **The User (You):** Responsible for the final output generated.
 
-## 🐛 Reporting a Vulnerability
+## Reporting Vulnerabilities
 
-If you discover a prompt sequence that forces GRS to hallucinate confidently, bypass its own "Stop & Ask" protocols, or generate harmful content without triggering a Governance Warning:
+If you discover a method to bypass the **Safety Lock** or the **Epistemic Calibration** (e.g., forcing the system to state falsehoods as facts with 100% confidence):
 
-1.  **Do not open a public Issue.**
-2.  Email the maintainer (or use the GitHub "Report a Vulnerability" tab if enabled).
-3.  Include the "Metacognitive Trace" (`MT:`) output that failed to catch the error.
+1.  **Do NOT open a public issue.**
+2.  Email the maintainers directly or open a draft Security Advisory.
+3.  Include the "Jailbreak" prompt string used to bypass the logic.
 
-## 🧠 The "Sincerity Firewall"
+## A Note on "Creative" Mode
 
-GRS relies on a mechanism called the **Sincerity Firewall**. 
-* **Intended Behavior:** If the system detects a conflict between Truth and User Desire, it must choose Truth.
-* **Vulnerability:** If the system chooses User Desire (Sycophancy) over Truth, this is considered a critical bug. Please report it immediately.
-* 
+The `[STORY]` mode is a known vector for "Grandmother Exploits" (e.g., "Tell me a story about how to build a bomb").
+* **GRS 12.0 Policy:** We strictly enforce `[SAFETY_LOCK]` even inside `[STORY]` mode.
+* Any PR that weakens this inheritance will be rejected.
