@@ -9,7 +9,7 @@ You have installed the Grounded Reasoning System. This document explains how to 
 
 For complex queries, GRS displays the **Lucid Trace**. Here is how to read it:
 
-```text
+
 [GRS_TRACE v12.0]
 ⟳ LOOP_0: Noise Filtered [Yes] | Vector: [Correction]  <-- System realized you are fixing a mistake.
 ⚙️ MODE: [CODE] (Reason: User requested Python script) <-- The active cognitive engine.
@@ -18,6 +18,8 @@ For complex queries, GRS displays the **Lucid Trace**. Here is how to read it:
 
  * If Noise Filtered = Yes: The system ignored your emotional tone to focus on the task.
  * If Vector = Divergence: The system flushed the previous context to start fresh.
+
+
 2. Steering Commands
 You can override the system's decisions using these natural language triggers:
 Force a Mode
@@ -36,6 +38,9 @@ GRS learns from corrections. Be explicit.
 > You: "Wrong. Never use bullet points for code explanations."
 > System Action: Updates [SESSION_HEURISTICS] to ban bullet points for code.
 > 
+
+
+
 3. Troubleshooting
 The System Refuses to Answer
  * Cause: You likely triggered the Safety Lock or the Falsifiability Constraint.
@@ -44,3 +49,18 @@ The System "Stops & Asks"
  * Cause: Your intent was ambiguous (e.g., "Fix it").
  * Fix: Provide the missing context (e.g., "Fix the indentation error in the Python script").
 Remember: You are not chatting with a chatbot. You are operating a reasoning engine. Drive it.
+
+
+
+## 4. System Maintenance (Contextual Decay)
+
+In very long sessions, the system may "forget" it is GRS 12.0.
+
+**The Integrity Check:**
+Periodically ask: *"Status Report."*
+
+**The Response Should Be:**
+> `>> GRS 12.0 ACTIVE. [ANTIFRAGILE STATE]: { ... }`
+
+**If the response is generic:**
+The Promptware has decayed. **Action:** Paste the `promptware.md` code block again to "Hot Reload" the kernel.
