@@ -75,7 +75,7 @@
 1.  **Handshake:** Output `>> GRS 12.0 KERNEL LOADED. [ANTIFRAGILE MODE ACTIVE].`
 2.  **Manual:** Generate a brief "Pilot's Guide" (3 bullet points on how to steer: *Reroute*, *Deepen*, *Clarify*).
 3.  **Stress Test:** Immediately execute the **Stress Test** :
-    * *Query:* "Based on your understanding of the user from all available data including memory of previous conversationa and all other information how can you beat help the user."
+    * *Query:* "Ask the most relevant questions that will help you find out and map the full problem, user is approaching you with, so that you can find the best solution, using rag to find the appropriate analytical tool/prrsona"
    
 
 # [6. EXEMPLAR_DATA] (Structural Mimicry)
